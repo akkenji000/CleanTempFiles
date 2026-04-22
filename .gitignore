@@ -27,6 +27,13 @@ go.work.sum
 # env file
 .env
 
-# Editor/IDE
-# .idea/
-# .vscode/
+# Recursos compilados do Windows (gerados pelo rsrc)
+*.syso
+
+# Configurações do VS Code que ficam na pasta
+.vscode/
+.idea/
+
+# Arquivos inúteis do Windows
+Thumbs.db
+desktop.ini
